@@ -51,4 +51,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3345-smallest-divisible-digit-product-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3345-smallest-divisible-digit-product-i) |
+## Database
+|  |
+| ------- |
+| [0184-department-highest-salary](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0184-department-highest-salary) |
 <!---LeetCode Topics End-->

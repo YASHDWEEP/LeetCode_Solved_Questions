@@ -42,48 +42,93 @@
 //         return left;
 //     }
 // }
+// class Solution {
+//     public int splitArray(int[] nums, int k) {
+//         int slarge = sum(nums);
+//         int smin = max(nums);
+//         int mid =0;
+//         while(smin <= slarge){
+//             mid = (smin + slarge)/2;
+//             if(isSplitPossible(nums,k,mid)){
+//                 slarge = mid -1;
+//             }else{
+//                 smin = mid +1 ;
+//             }
+//         }
+//         return smin;
+//     }
+//     private boolean isSplitPossible(int[] nums,int k,int sum){
+//         int sub = 1;
+//         int curSum = 0;
+//         for(int i=0;i<nums.length;i++){
+//             if(curSum+nums[i] <=sum){
+//                 curSum += nums[i];
+//             }else{
+//                 sub++;
+//                 curSum = nums[i];
+//             }
+//         }
+//         return sub <= k;
+//     }
+//     private int max(int[] nums){
+//         int max = nums[0];
+//         for(int i =1;i<nums.length; i++){
+//             if(nums[i] > max){
+//                 max = nums[i];
+//             }
+//         }
+//         return max;
+//     }
+//     private int sum(int[] nums){
+//         int sum =0;
+//         for(int x : nums){
+//             sum += x;
+//         }
+//         return sum;
+//     }
+// }
 class Solution {
     public int splitArray(int[] nums, int k) {
-        int slarge = sum(nums);
-        int smin = max(nums);
-        int mid =0;
-        while(smin <= slarge){
-            mid = (smin + slarge)/2;
-            if(isSplitPossible(nums,k,mid)){
-                slarge = mid -1;
-            }else{
-                smin = mid +1 ;
+
+        long low = nums[0];
+        for(int i = 0 ; i < nums.length ; i++) {
+            if(nums[i] > low) {
+                low = nums[i] ;
             }
         }
-        return smin;
-    }
-    private boolean isSplitPossible(int[] nums,int k,int sum){
-        int sub = 1;
-        int curSum = 0;
-        for(int i=0;i<nums.length;i++){
-            if(curSum+nums[i] <=sum){
-                curSum += nums[i];
-            }else{
-                sub++;
-                curSum = nums[i];
+        
+        long high = 0 ;
+        
+        for(int i = 0 ; i < nums.length ; i++) {
+            
+            high = high + nums[i] ;
+        }
+         
+         long ans = -1 ;
+        
+        while(low <= high) {
+             
+            long mid = low + ( high - low) / 2 ;
+            
+              int count = 1 ;
+              long sum = 0 ;
+              for( int i = 0 ; i < nums.length ; i++) {
+                 if(sum + nums[i] > mid) {
+                     count++;
+                     sum = 0 ;
+                 }
+                 sum += nums[i] ;
+              }         
+            if(count <= k) {
+                ans = mid;
+                high = mid - 1 ;
             }
-        }
-        return sub <= k;
-    }
-    private int max(int[] nums){
-        int max = nums[0];
-        for(int i =1;i<nums.length; i++){
-            if(nums[i] > max){
-                max = nums[i];
+            
+            else{
+                low = mid + 1 ;
             }
-        }
-        return max;
-    }
-    private int sum(int[] nums){
-        int sum =0;
-        for(int x : nums){
-            sum += x;
-        }
-        return sum;
+         }  
+        
+        return (int) ans;  
     }
 }

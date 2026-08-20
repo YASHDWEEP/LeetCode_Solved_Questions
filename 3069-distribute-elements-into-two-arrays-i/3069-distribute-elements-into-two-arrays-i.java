@@ -11,7 +11,17 @@ class Solution {
                 L2.add(nums[i]); 
             }
         }
-        L1.addAll(L2); 
-        return L1.stream().mapToInt(Integer::intValue).toArray();
+        int index = 0 ; 
+        for (int i = 0  ; i < L1.size()  ; i++ ){
+            nums[index] = L1.get(i);
+            index++;  
+        }
+        for (int i = 0  ; i < L2.size()  ; i++ ){
+            nums[index] = L2.get(i);
+            index++;  
+        }
+        return nums;
+        // L1.addAll(L2); 
+        // return L1.stream().mapToInt(Integer::intValue).toArray();
     }
 }

@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0877-stone-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1140-stone-game-ii) |
+| [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [1510-stone-game-iv](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1510-stone-game-iv) |
 | [2029-stone-game-ix](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2029-stone-game-ix) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Prefix Sum
@@ -164,9 +166,27 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
+| [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Combinatorics
 |  |
 | ------- |
+| [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+## Least Common Multiple
+|  |
+| ------- |
+| [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
+## Inclusion-Exclusion Principle
+|  |
+| ------- |
+| [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 <!---LeetCode Topics End-->

@@ -1,93 +1,80 @@
 class Solution {
 
     public long findKthSmallest(int[] coins, int k) {
-
-        long low = 1;
-        long high = (long) coins[0] * k;
-
-        // Safe upper bound
-        for (int coin : coins) {
-            high = Math.min(high, (long) coin * k);
-        }
-
-        while (low < high) {
-
-            long mid = low + (high - low) / 2;
-
-            long count = count(mid, coins, k);
-
-            if (count >= k) {
-                high = mid;
-            } else {
-                low = mid + 1;
-            }
-        }
-
-        return low;
-    }
-
-    private long count(long x, int[] coins, int k) {
-
-        int n = coins.length;
-        long result = 0;
-
-        // All non-empty subsets
-        for (int mask = 1; mask < (1 << n); mask++) {
-
-            long lcm = 1;
-            int bits = 0;
-            boolean overflow = false;
-
-            for (int i = 0; i < n; i++) {
-
-                if ((mask & (1 << i)) != 0) {
-
-                    bits++;
-
-                    long gcd = gcd(lcm, coins[i]);
-
-                    // lcm = lcm / gcd * coin
-                    long temp = lcm / gcd;
-
-                    if (temp > x / coins[i]) {
-                        overflow = true;
-                        break;
-                    }
-
-                    lcm = temp * coins[i];
-
-                    if (lcm > x) {
-                        overflow = true;
-                        break;
-                    }
+        Arrays.sort(coins);
+        List<Integer> newCoins = new ArrayList<>();
+        for (int x : coins) {
+            boolean flag = true;
+            for (int y : newCoins) {
+                if (x % y == 0) {
+                    flag = false;
+                    break;
                 }
             }
-
-            // If LCM > x, x / LCM = 0
-            if (overflow) {
-                continue;
+            if (flag) {
+                newCoins.add(x);
             }
+        }
+        coins = newCoins
+            .stream()
+            .mapToInt(i -> i)
+            .toArray();
 
-            long current = x / lcm;
+        int n = coins.length;
+        int m = 1 << n;
+        int[] bitCount = new int[m];
+        long[] lcm = new long[m];
+        long l = k;
+        long r = (long) coins[0] * k + 1;
 
-            if (bits % 2 == 1) {
-                result += current;
+        for (int mask = 1; mask < m; mask++) {
+            bitCount[mask] = bitCount[mask >> 1] + (mask & 1);
+        }
+
+        lcm[0] = 1;
+        for (int mask = 1; mask < m; mask++) {
+            int preMask = mask & (mask - 1);
+            int i = Integer.numberOfTrailingZeros(mask);
+
+            long tmp = lcm[preMask] / gcd(lcm[preMask], coins[i]);
+            if (tmp <= r / coins[i]) {
+                lcm[mask] = tmp * coins[i];
             } else {
-                result -= current;
+                lcm[mask] = r + 1;
             }
         }
 
-        return result;
+        while (l < r) {
+            long x = l + (r - l) / 2;
+            if (count(x, m, lcm, bitCount) >= k) {
+                r = x;
+            } else {
+                l = x + 1;
+            }
+        }
+        return l;
+    }
+
+    private long count(long x, int m, long[] lcm, int[] bitCount) {
+        long res = 0;
+        for (int mask = 1; mask < m; mask++) {
+            if (lcm[mask] > x) continue;
+
+            if ((bitCount[mask] & 1) == 1) {
+                res += x / lcm[mask];
+            } else {
+                res -= x / lcm[mask];
+            }
+        }
+        return res;
     }
 
     private long gcd(long a, long b) {
-
         while (b != 0) {
-            long temp = a % b;
-            a = b;
-            b = temp;
+            long t = b;
+            b = a % b;
+            a = t;
         }
-
         return a;
     }
 }

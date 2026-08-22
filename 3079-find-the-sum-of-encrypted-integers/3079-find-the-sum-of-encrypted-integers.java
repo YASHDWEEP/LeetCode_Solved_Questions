@@ -1,29 +1,18 @@
 class Solution {
-    public static int max(int n){
-        int max  = Integer.MIN_VALUE; 
-        while(n > 0){
-            int rem = n % 10 ; 
-            max = Math.max(max ,rem); 
-            n = n /10 ; 
-        }
-        return max ;
-    } 
-    public int encrypt(int n ){
-        int max = max(n);
-        String n1 = String.valueOf(n);
-        StringBuilder n2 = new StringBuilder(); 
-
-        for (int i = 0 ; i < n1.length() ; i++){
-            n2.append("1");
-        }
-        int one_form = Integer.parseInt(n2.toString());
-        return one_form * max ;
-    }
     public int sumOfEncryptedInt(int[] nums) {
-        int sum = 0 ; 
-        for (int i = 0 ; i < nums.length  ; i++){
-            sum += encrypt(nums[i]);
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int lar = 0;
+            int num = 0;
+            while (nums[i] > 0) {
+                int dig = nums[i] % 10;
+                nums[i] /= 10;
+                if (dig > lar) lar = dig;
+                num *= 10;
+                num += 1;
+            }
+            sum += num * lar;
         }
-        return sum ;
+        return sum;
     }
 }

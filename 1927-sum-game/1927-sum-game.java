@@ -9,32 +9,26 @@ class Solution {
         int leftQ = 0;
         int rightQ = 0;
 
-       for (int i = 0; i < n / 2; i++) {
-
+        for (int i = 0 ; i < n/2 ; i++){
             char ch = num.charAt(i);
-
-            if (ch == '?') {
-                leftQ++;
-            } else {
+            if (ch == '?'){
+                leftQ++; 
+            }else {
                 leftSum += ch - '0';
             }
         }
-
-        for (int i = n / 2; i < n; i++) {
-
+        for (int i = n/2 ; i < n ; i++){
             char ch = num.charAt(i);
-
-            if (ch == '?') {
-                rightQ++;
-            } else {
+            if (ch == '?'){
+                rightQ++; 
+            }else {
                 rightSum += ch - '0';
             }
         }
-
-        if (2 * (leftSum - rightSum) == 9 * (rightQ - leftQ)) {
-            return false;
+     
+        if (2 * (leftSum - rightSum ) == 9 * (rightQ - leftQ)){
+            return false ; 
         }
-
-        return true;
+        return true ; 
     }
 }

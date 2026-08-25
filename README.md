@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-sum-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1927-sum-game) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2029-stone-game-ix) |
+| [2413-smallest-even-multiple](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2413-smallest-even-multiple) |
 | [3079-find-the-sum-of-encrypted-integers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3079-find-the-sum-of-encrypted-integers) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3345-smallest-divisible-digit-product-i) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
+| [2413-smallest-even-multiple](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2413-smallest-even-multiple) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3658-gcd-of-odd-and-even-sums) |

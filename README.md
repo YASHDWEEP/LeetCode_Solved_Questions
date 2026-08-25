@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [1510-stone-game-iv](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1510-stone-game-iv) |
 | [1927-sum-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1927-sum-game) |
+| [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2029-stone-game-ix) |
 | [2413-smallest-even-multiple](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2413-smallest-even-multiple) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3345-smallest-divisible-digit-product-i) |
 ## Database
 |  |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
+| [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2413-smallest-even-multiple](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2413-smallest-even-multiple) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -212,4 +215,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
+## Prime Factorization
+|  |
+| ------- |
+| [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
+## Sieve Theory
+|  |
+| ------- |
+| [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 <!---LeetCode Topics End-->

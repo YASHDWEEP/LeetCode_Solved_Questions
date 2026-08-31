@@ -19,8 +19,8 @@ class Solution {
                 maxInd=i;
             }
         }
-        int a=Math.min(minInd,maxInd);
-        int b =Math.max(minInd,maxInd);
+        int a = Math.min(minInd,maxInd);
+        int b = Math.max(minInd,maxInd);
          int front=b+1;
          int back=n-a;
          int both=(a+1)+(n-b);

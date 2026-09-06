@@ -1,22 +1,26 @@
 class Solution {
-    public int numDistinct(String s, String t) {
-        int m = s.length(), n = t.length();
-        if (m < n) {
-            return 0;
+    public int numDistinct(String B, String A) {
+         int lenA= A.length();
+        int lenB = B.length();
+        Integer [][] memo = new Integer [lenA][lenB];
+
+        return solve(A,B,lenA-1,lenB-1,memo);
+
+    }
+
+    private int solve(String A, String B, int i, int j, Integer[][]memo){
+
+        if(i<0) return 1;
+
+        if(j<0) return 0;
+
+        if(j<i) return 0;
+
+        if(memo [i][j] != null) return memo [i][j];
+
+        if(A.charAt(i) == B.charAt(j)){
+            return memo [i][j] = solve(A,B,i-1,j-1,memo) + solve(A,B,i,j-1,memo);
         }
-        int[] dp = new int[n + 1];
-        dp[n] = 1;
-        
-        for (int i = m - 1; i >= 0; i--) {
-            char sChar = s.charAt(i);
-            for (int j = 0; j < n; j++) {
-                char tChar = t.charAt(j);
-                if (sChar == tChar) {
-                    dp[j] = dp[j + 1] + dp[j];
-                }
-            }
-        }
-        
-        return dp[0];
+        return memo[i][j] = solve(A,B,i,j-1,memo);
     }
 }

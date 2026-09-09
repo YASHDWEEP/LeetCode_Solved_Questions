@@ -1,13 +1,13 @@
 class Solution {
     public int CountofN(long n) {
         int count = 0;
-       if (n ==0 ){
-        return 1 ; 
-       }
+        if (n == 0) {
+            return 1;
+        }
         while (n != 0) {
             count += 1;
             n = n / 10;
-            
+
         }
         return count;
     }
@@ -84,15 +84,12 @@ class Solution {
         long count_commas = 0;
 
         for (long power = 1000; power <= n;) {
-            count_commas += n - power + 1;
-
-            if (power > n / 1000) {
+            count_commas += (n- power +1); 
+            if ( power > n/ 1000){
                 break;
             }
-
-            power *= 1000;
+            power *= 1000 ;  
         }
-
         return count_commas;
     }
 }

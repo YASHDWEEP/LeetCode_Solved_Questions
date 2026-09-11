@@ -209,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2206-divide-array-into-equal-pairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2206-divide-array-into-equal-pairs) |
+| [2595-number-of-even-and-odd-bits](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2595-number-of-even-and-odd-bits) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |

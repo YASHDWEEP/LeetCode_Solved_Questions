@@ -1,81 +1,142 @@
+import java.util.*;
+
 class Solution {
+
+    static class State {
+        long score;
+        int[] ids;
+
+        State(long score, int[] ids) {
+            this.score = score;
+            this.ids = ids;
+        }
+    }
 
     public int[] maximumWeight(List<List<Integer>> intervals) {
         int n = intervals.size();
-        int[][] arr = new int[n][4];
+
+        // [left, right, weight, originalIndex]
+        long[][] arr = new long[n][4];
+
         for (int i = 0; i < n; i++) {
             arr[i][0] = intervals.get(i).get(0);
             arr[i][1] = intervals.get(i).get(1);
             arr[i][2] = intervals.get(i).get(2);
             arr[i][3] = i;
         }
-        // Sort by right endpoint.
-        Arrays.sort(arr, (a, b) -> Integer.compare(a[1], b[1]));
 
-        long[][] dp = new long[n + 1][5];
-        List<Integer>[][] indices = new List[n + 1][5];
-        for (int i = 0; i <= n; i++) {
-            for (int j = 0; j < 5; j++) {
-                indices[i][j] = new ArrayList<>();
+        Arrays.sort(arr, (a, b) -> {
+            if (a[0] != b[0]) {
+                return Long.compare(a[0], b[0]);
             }
-        }
+            return Long.compare(a[1], b[1]);
+        });
+
+        // next[i] = first interval whose left > arr[i].right
+        int[] next = new int[n];
 
         for (int i = 0; i < n; i++) {
-            int l = arr[i][0],
-                weight = arr[i][2],
-                idx = arr[i][3];
-            // Use binary search to find intervals whose right endpoints are smaller than l.
-            int k = binarySearch(arr, i, l);
+            int lo = i + 1;
+            int hi = n;
 
-            for (int j = 1; j < 5; j++) {
-                long s1 = dp[i][j];
-                long s2 = dp[k][j - 1] + weight;
-                if (s1 > s2) {
-                    dp[i + 1][j] = dp[i][j];
-                    indices[i + 1][j] = new ArrayList<>(indices[i][j]);
-                    continue;
-                }
+            while (lo < hi) {
+                int mid = lo + (hi - lo) / 2;
 
-                List<Integer> newIndex = new ArrayList<>(indices[k][j - 1]);
-                newIndex.add(idx);
-                Collections.sort(newIndex);
-                if (s1 == s2 && compareLists(indices[i][j], newIndex) < 0) {
-                    newIndex = new ArrayList<>(indices[i][j]);
+                if (arr[mid][0] > arr[i][1]) {
+                    hi = mid;
+                } else {
+                    lo = mid + 1;
                 }
-                dp[i + 1][j] = s2;
-                indices[i + 1][j] = newIndex;
+            }
+
+            next[i] = lo;
+        }
+
+        /*
+         * dp[c][i] = best answer using intervals from i onward,
+         * while selecting at most c intervals.
+         */
+        State[][] dp = new State[5][n + 1];
+
+        for (int c = 0; c <= 4; c++) {
+            dp[c][n] = new State(0, new int[0]);
+        }
+
+        for (int i = n - 1; i >= 0; i--) {
+
+            dp[0][i] = new State(0, new int[0]);
+
+            for (int c = 1; c <= 4; c++) {
+
+                // Option 1: skip current interval
+                State skip = dp[c][i + 1];
+
+                // Option 2: take current interval
+                State rest = dp[c - 1][next[i]];
+
+                long takeScore = arr[i][2] + rest.score;
+
+                int[] takeIds = insertSorted(
+                    rest.ids,
+                    (int) arr[i][3]
+                );
+
+                State take = new State(takeScore, takeIds);
+
+                dp[c][i] = better(skip, take);
             }
         }
 
-        List<Integer> result = indices[n][4];
-        int[] ans = new int[result.size()];
-        for (int i = 0; i < result.size(); i++) {
-            ans[i] = result.get(i);
-        }
-        return ans;
+        return dp[4][0].ids;
     }
 
-    private int binarySearch(int[][] arr, int end, int target) {
-        int left = 0,
-            right = end;
-        while (left < right) {
-            int mid = (left + right) / 2;
-            if (arr[mid][1] < target) {
-                left = mid + 1;
-            } else {
-                right = mid;
-            }
+    private State better(State a, State b) {
+
+        if (a.score > b.score) {
+            return a;
         }
-        return left;
+
+        if (b.score > a.score) {
+            return b;
+        }
+
+        // Same score -> lexicographically smallest
+        if (lexSmaller(a.ids, b.ids)) {
+            return a;
+        }
+
+        return b;
     }
 
-    private int compareLists(List<Integer> a, List<Integer> b) {
-        int minLen = Math.min(a.size(), b.size());
-        for (int i = 0; i < minLen; i++) {
-            if (!a.get(i).equals(b.get(i))) {
-                return Integer.compare(a.get(i), b.get(i));
+    private boolean lexSmaller(int[] a, int[] b) {
+        int len = Math.min(a.length, b.length);
+
+        for (int i = 0; i < len; i++) {
+            if (a[i] != b[i]) {
+                return a[i] < b[i];
             }
         }
-        return Integer.compare(a.size(), b.size());
+
+        return a.length < b.length;
+    }
+
+    private int[] insertSorted(int[] arr, int value) {
+        int[] result = new int[arr.length + 1];
+
+        int i = 0;
+
+        while (i < arr.length && arr[i] < value) {
+            result[i] = arr[i];
+            i++;
+        }
+
+        result[i] = value;
+
+        while (i < arr.length) {
+            result[i + 1] = arr[i];
+            i++;
+        }
+
+        return result;
     }
 }

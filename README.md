@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0650-2-keys-keyboard](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0650-2-keys-keyboard) |
+| [0836-rectangle-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0877-stone-game) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1071-greatest-common-divisor-of-strings) |
 | [1140-stone-game-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1140-stone-game-ii) |
@@ -285,4 +286,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2094-finding-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2094-finding-3-digit-even-numbers) |
 | [3483-unique-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3483-unique-3-digit-even-numbers) |
+## Geometry
+|  |
+| ------- |
+| [0836-rectangle-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->

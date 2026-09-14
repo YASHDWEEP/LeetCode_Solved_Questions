@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0223-rectangle-area](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0223-rectangle-area) |
 | [0650-2-keys-keyboard](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0650-2-keys-keyboard) |
 | [0836-rectangle-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0877-stone-game) |
@@ -289,5 +290,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Geometry
 |  |
 | ------- |
+| [0223-rectangle-area](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0223-rectangle-area) |
 | [0836-rectangle-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0836-rectangle-overlap) |
 <!---LeetCode Topics End-->

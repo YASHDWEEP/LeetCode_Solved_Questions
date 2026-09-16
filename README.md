@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
 | [0835-image-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0877-stone-game) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0387-first-unique-character-in-a-string) |
 | [2094-finding-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2094-finding-3-digit-even-numbers) |
 | [2206-divide-array-into-equal-pairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2206-divide-array-into-equal-pairs) |
@@ -52,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 | [2094-finding-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2094-finding-3-digit-even-numbers) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -244,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0387-first-unique-character-in-a-string) |
 | [2029-stone-game-ix](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2029-stone-game-ix) |
 | [2206-divide-array-into-equal-pairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2206-divide-array-into-equal-pairs) |
@@ -321,4 +325,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0387-first-unique-character-in-a-string) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->

@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
 | [2094-finding-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2094-finding-3-digit-even-numbers) |
 | [2206-divide-array-into-equal-pairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2206-divide-array-into-equal-pairs) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -45,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
 | [2094-finding-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2094-finding-3-digit-even-numbers) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0115-distinct-subsequences](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0115-distinct-subsequences) |
+| [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0344-reverse-string) |
 | [0940-distinct-subsequences-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0940-distinct-subsequences-ii) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1071-greatest-common-divisor-of-strings) |

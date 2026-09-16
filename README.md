@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1510-stone-game-iv](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1510-stone-game-iv) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1927-sum-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1927-sum-game) |
 | [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0940-distinct-subsequences-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0940-distinct-subsequences-ii) |
 | [1140-stone-game-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1140-stone-game-ii) |
 | [1510-stone-game-iv](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1510-stone-game-iv) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
 | [1140-stone-game-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1140-stone-game-ii) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3903-smallest-stable-index-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3904-smallest-stable-index-ii) |
 ## Two Pointers
@@ -244,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
+| [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Least Common Multiple
 |  |

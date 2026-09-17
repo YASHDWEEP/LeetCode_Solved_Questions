@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
+| [0704-binary-search](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0704-binary-search) |
 | [0835-image-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1140-stone-game-ii) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
+| [0704-binary-search](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0704-binary-search) |
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |

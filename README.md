@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0053-maximum-subarray](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0053-maximum-subarray) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0053-maximum-subarray) |
 | [0115-distinct-subsequences](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0115-distinct-subsequences) |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
 | [0509-fibonacci-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0509-fibonacci-number) |
@@ -342,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0053-maximum-subarray) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |

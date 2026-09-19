@@ -1,10 +1,9 @@
 class Solution {
     public long[] sumOfThree(long num) {
-        long x = num / 3;
-        if (((x - 1) + x + (x + 1)) == num) {
-            return new long[] { x - 1, x, x + 1 };
+        if(num%3!=0) {
+            return new long[]{};
         }
-        return new long[] {};
-
+        long x=(num-3)/3;
+        return new long[]{x,x+1,x+2};
     }
 }

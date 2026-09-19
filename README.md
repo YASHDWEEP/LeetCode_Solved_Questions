@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0053-maximum-subarray) |
 | [0088-merge-sorted-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
@@ -62,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0088-merge-sorted-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
@@ -272,6 +275,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0387-first-unique-character-in-a-string) |
 | [2029-stone-game-ix](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2029-stone-game-ix) |
@@ -359,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 ## Heap (Priority Queue)
 |  |
@@ -380,4 +385,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0128-longest-consecutive-sequence) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->

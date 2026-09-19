@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1140-stone-game-ii) |
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1295-find-numbers-with-even-number-of-digits) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1510-stone-game-iv](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1510-stone-game-iv) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1927-sum-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1927-sum-game) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0223-rectangle-area](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0223-rectangle-area) |
 | [0836-rectangle-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0836-rectangle-overlap) |
+| [1401-circle-and-rectangle-overlapping](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1401-circle-and-rectangle-overlapping) |
 ## Queue
 |  |
 | ------- |

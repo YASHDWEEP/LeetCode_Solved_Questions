@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2029-stone-game-ix) |
+| [2177-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2177-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2413-smallest-even-multiple](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2413-smallest-even-multiple) |
 | [3079-find-the-sum-of-encrypted-integers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3079-find-the-sum-of-encrypted-integers) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
@@ -278,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2177-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2177-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 ## Binary Search
 |  |

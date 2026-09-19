@@ -183,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1927-sum-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2213-longest-substring-of-one-repeating-character) |
+| [2414-length-of-the-longest-alphabetical-continuous-substring](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2414-length-of-the-longest-alphabetical-continuous-substring) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3090-maximum-length-substring-with-two-occurrences) |

@@ -1,56 +1,55 @@
 class Solution {
     public int minimumOperations(int[] nums, int start, int goal) {
+        //distinct
+        int n=nums.length;
 
-        boolean[] visited = new boolean[1001];
-        Queue<Integer> queue = new LinkedList<>();
+        if(start==goal){
+            return 0;
+        }
 
-        queue.offer(start);
-        visited[start] = true;
+        boolean[] vis=new boolean[1002];
+        Queue<Integer> q=new LinkedList<>();
 
-        int operations = 0;
+        q.offer(start);
+        vis[start]=true;
 
-        while (!queue.isEmpty()) {
+        int steps=0;
 
-            int size = queue.size();
+        while(!q.isEmpty()){
+            int size=q.size();
 
-            while (size-- > 0) {
+            for(int i=0;i<size;i++){
+                int num=q.poll();
 
-                int current = queue.poll();
+                for(int j=0;j<n;j++){
+                    int choice1=num+nums[j];
+                    int choice2=num-nums[j];
+                    int choice3=num^nums[j];
 
-                if (current == goal) {
-                    return operations;
-                }
-
-                for (int num : nums) {
-
-                    int next1 = current + num;
-                    int next2 = current - num;
-                    int next3 = current ^ num;
-
-                    if (next1 == goal || next2 == goal || next3 == goal) {
-                        return operations + 1;
+                    if(choice1==goal || choice2==goal || choice3==goal){
+                        return steps+1;
                     }
 
-                    if (next1 >= 0 && next1 <= 1000 && !visited[next1]) {
-                        visited[next1] = true;
-                        queue.offer(next1);
+                    if(choice1>=0 && choice1<=1000 && !vis[choice1]){
+                        q.offer(choice1);
+                        vis[choice1]=true;
                     }
 
-                    if (next2 >= 0 && next2 <= 1000 && !visited[next2]) {
-                        visited[next2] = true;
-                        queue.offer(next2);
+                    if(choice2>=0 && choice2<=1000 && !vis[choice2]){
+                        q.offer(choice2);
+                        vis[choice2]=true;
                     }
 
-                    if (next3 >= 0 && next3 <= 1000 && !visited[next3]) {
-                        visited[next3] = true;
-                        queue.offer(next3);
+                     if(choice3>=0 && choice3<=1000 && !vis[choice3]){
+                        q.offer(choice3);
+                        vis[choice3]=true;
                     }
                 }
             }
 
-            operations++;
+            steps++;
         }
 
         return -1;
-    }
+    } 
 }

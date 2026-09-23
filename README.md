@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2029-stone-game-ix) |
+| [2059-minimum-operations-to-convert-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2059-minimum-operations-to-convert-number) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2094-finding-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2094-finding-3-digit-even-numbers) |
 | [2206-divide-array-into-equal-pairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2206-divide-array-into-equal-pairs) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [2059-minimum-operations-to-convert-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2059-minimum-operations-to-convert-number) |
 | [3310-remove-methods-from-project](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Graph Theory

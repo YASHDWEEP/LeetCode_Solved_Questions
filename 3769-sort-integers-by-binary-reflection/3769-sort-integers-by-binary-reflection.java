@@ -1,9 +1,14 @@
 class Solution {
 
     public int reflection(int n) {
-        String binary = Integer.toBinaryString(n);
-        String rev = new StringBuilder(binary).reverse().toString();
-        return Integer.parseInt(rev, 2);
+        int rev = 0;
+
+        while (n > 0) {
+            rev = (rev << 1) | (n & 1);
+            n >>= 1;
+        }
+
+        return rev;
     }
 
     public int[] sortByReflection(int[] nums) {
@@ -18,12 +23,9 @@ class Solution {
             int ra = reflection(a);
             int rb = reflection(b);
 
-            if (ra != rb) {
+            if (ra != rb)
                 return Integer.compare(ra, rb);
-            }
 
-            // If reflection values are equal,
-            // sort by original number.
             return Integer.compare(a, b);
         });
 

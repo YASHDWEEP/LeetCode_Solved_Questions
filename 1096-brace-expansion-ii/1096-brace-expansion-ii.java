@@ -1,70 +1,44 @@
 class Solution {
+  public List<String> braceExpansionII(String expression) {
+    return dfs(expression, 0, expression.length() - 1);
+  }
 
-    String expression;
-    int idx;
+  private List<String> dfs(final String expression, int s, int e) {
+    TreeSet<String> ans = new TreeSet<>();
+    List<List<String>> groups = new ArrayList<>();
+    groups.add(new ArrayList<>());
+    int layer = 0;
+    int left = 0;
 
-    public List<String> braceExpansionII(String expression) {
-        this.expression = expression;
-        this.idx = 0;
-        Set<String> ret = expr();
-        return new ArrayList<String>(ret);
+    for (int i = s; i <= e; ++i)
+      if (expression.charAt(i) == '{' && ++layer == 1)
+        left = i + 1;
+      else if (expression.charAt(i) == '}' && --layer == 0)
+        merge(groups, dfs(expression, left, i - 1));
+      else if (expression.charAt(i) == ',' && layer == 0)
+        groups.add(new ArrayList<>());
+      else if (layer == 0)
+        merge(groups, new ArrayList<>(List.of(String.valueOf(expression.charAt(i)))));
+
+    for (final List<String> group : groups)
+      for (final String word : group)
+        ans.add(word);
+
+    return new ArrayList<>(ans);
+  }
+
+  void merge(List<List<String>> groups, List<String> group) {
+    if (groups.get(groups.size() - 1).isEmpty()) {
+      groups.set(groups.size() - 1, group);
+      return;
     }
 
-    // item -> letter | { expr }
-    private Set<String> item() {
-        Set<String> ret = new TreeSet<String>();
-        if (expression.charAt(idx) == '{') {
-            idx++;
-            ret = expr();
-        } else {
-            StringBuilder sb = new StringBuilder();
-            sb.append(expression.charAt(idx));
-            ret.add(sb.toString());
-        }
-        idx++;
-        return ret;
-    }
+    List<String> mergedGroup = new ArrayList<>();
 
-    // term -> item | item term
-    private Set<String> term() {
-        // Initialize an empty set and take its Cartesian product with subsequent results
-        Set<String> ret = new TreeSet<String>() {
-            {
-                add("");
-            }
-        };
-        // An item starts with { or a lowercase letter; continue matching only when this condition is met
-        while (
-            idx < expression.length() &&
-            (expression.charAt(idx) == '{' ||
-                Character.isLetter(expression.charAt(idx)))
-        ) {
-            Set<String> sub = item();
-            Set<String> tmp = new TreeSet<String>();
-            for (String left : ret) {
-                for (String right : sub) {
-                    tmp.add(left + right);
-                }
-            }
-            ret = tmp;
-        }
-        return ret;
-    }
+    for (final String word1 : groups.get(groups.size() - 1))
+      for (final String word2 : group)
+        mergedGroup.add(word1 + word2);
 
-    // expr -> term | term, expr
-    private Set<String> expr() {
-        Set<String> ret = new TreeSet<String>();
-        while (true) {
-            // Take the union with the result of term()
-            ret.addAll(term());
-            // Continue if a comma is matched; otherwise, stop matching
-            if (idx < expression.length() && expression.charAt(idx) == ',') {
-                idx++;
-                continue;
-            } else {
-                break;
-            }
-        }
-        return ret;
-    }
+    groups.set(groups.size() - 1, mergedGroup);
+  }
 }

@@ -1,8 +1,7 @@
 class Solution {
     public String evaluate(String s, List<List<String>> knowledge) {
-        HashMap<String, String> Map = new HashMap<>();
         StringBuilder ans = new StringBuilder();
-
+        HashMap<String, String> Map = new HashMap<>();
         for (int i = 0; i < knowledge.size(); i++) {
             String key = knowledge.get(i).get(0);
             String value = knowledge.get(i).get(1);
@@ -10,9 +9,10 @@ class Solution {
         }
         int i = 0;
         while (i < s.length()) {
+
             if (s.charAt(i) == '(') {
                 int j = i + 1;
-                while (s.charAt(j) != ')') {
+                while (!(s.charAt(j) == ')')) {
                     j++;
                 }
                 String ke = s.substring(i + 1, j);
@@ -21,11 +21,11 @@ class Solution {
                 } else {
                     ans.append("?");
                 }
-                i = j + 1;
+                i = j ;
             } else {
                 ans.append(s.charAt(i));
-                i++;
             }
+            i++;
         }
         return ans.toString();
     }

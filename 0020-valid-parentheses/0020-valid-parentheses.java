@@ -1,30 +1,38 @@
-import java.util.*;
-
 class Solution {
     public boolean isValid(String s) {
-        Stack<Character> St = new Stack<>();
+
         if (s.length() % 2 == 1) {
             return false;
         }
+
+        int top = -1;
+        char stack[] = new char[s.length()];
+
         for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') {
-                St.push(c);
-            } else {
-                if (St.isEmpty()) {
+
+            if (c == '(') {
+                stack[++top] = ')';
+            } 
+            else if (c == '{') {
+                stack[++top] = '}';
+            } 
+            else if (c == '[') {
+                stack[++top] = ']';
+            } 
+            else {
+
+                if (top == -1) {
                     return false;
                 }
-                char top = St.pop();
-                if (c == ')' && top != '(') {
+
+                if (stack[top] != c) {
                     return false;
                 }
-                if (c == '}' && top != '{') {
-                    return false;
-                }
-                if (c == ']' && top != '[') {
-                    return false;
-                }
+
+                top--;
             }
         }
-        return St.isEmpty();
+
+        return top == -1;
     }
 }

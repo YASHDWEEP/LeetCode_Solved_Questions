@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0032-longest-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0032-longest-valid-parentheses) |
 | [0053-maximum-subarray](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0053-maximum-subarray) |
 | [0115-distinct-subsequences](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0115-distinct-subsequences) |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
@@ -197,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0032-longest-valid-parentheses) |
 | [0115-distinct-subsequences](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
@@ -429,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0032-longest-valid-parentheses) |
 | [1003-check-if-word-is-valid-after-substitutions](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1003-check-if-word-is-valid-after-substitutions) |
 | [1096-brace-expansion-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -438,6 +441,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0032-longest-valid-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |

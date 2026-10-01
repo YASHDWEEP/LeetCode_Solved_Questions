@@ -20,19 +20,15 @@ class Solution {
                 stack[++top] = ']';
             } 
             else {
-
                 if (top == -1) {
                     return false;
                 }
-
                 if (stack[top] != c) {
                     return false;
                 }
-
                 top--;
             }
         }
-
         return top == -1;
     }
 }

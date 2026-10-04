@@ -13,14 +13,12 @@ class Solution {
                 low--;
                 high++;
             }
-
             if (low < 0) {
                 low = 0;
             }
             if (high == -1) {
                 return false;
             }
-
         }
         return low == 0;
     }

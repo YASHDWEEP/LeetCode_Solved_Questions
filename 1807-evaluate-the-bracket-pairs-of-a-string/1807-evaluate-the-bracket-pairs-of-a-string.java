@@ -1,11 +1,11 @@
 class Solution {
     public String evaluate(String s, List<List<String>> knowledge) {
-        StringBuilder ans = new StringBuilder();
-        HashMap<String, String> Map = new HashMap<>();
+        HashMap<String, String> map = new HashMap<>();
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < knowledge.size(); i++) {
             String key = knowledge.get(i).get(0);
             String value = knowledge.get(i).get(1);
-            Map.put(key, value);
+            map.put(key, value);
         }
         int i = 0;
         while (i < s.length()) {
@@ -15,18 +15,19 @@ class Solution {
                 while (!(s.charAt(j) == ')')) {
                     j++;
                 }
-                String ke = s.substring(i + 1, j);
-                if (Map.containsKey(ke)) {
-                    ans.append(Map.get(ke));
+                String new_key = s.substring(i + 1, j);
+                if (map.containsKey(new_key)) {
+                    sb.append(map.get(new_key));
                 } else {
-                    ans.append("?");
+                    sb.append("?");
                 }
-                i = j ;
+                i = j;
             } else {
-                ans.append(s.charAt(i));
+                sb.append(s.charAt(i));
+
             }
             i++;
         }
-        return ans.toString();
+        return sb.toString();
     }
 }

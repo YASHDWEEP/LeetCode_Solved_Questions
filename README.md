@@ -209,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0678-valid-parenthesis-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0940-distinct-subsequences-ii) |
 | [1003-check-if-word-is-valid-after-substitutions](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1003-check-if-word-is-valid-after-substitutions) |
 | [1071-greatest-common-divisor-of-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1071-greatest-common-divisor-of-strings) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
 | [0678-valid-parenthesis-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0678-valid-parenthesis-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1927-sum-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2029-stone-game-ix) |
@@ -443,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0032-longest-valid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1003-check-if-word-is-valid-after-substitutions](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1003-check-if-word-is-valid-after-substitutions) |
 | [1096-brace-expansion-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -457,6 +460,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0032-longest-valid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0678-valid-parenthesis-string) |
 | [0856-score-of-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0856-score-of-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |

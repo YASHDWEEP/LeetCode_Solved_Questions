@@ -1,104 +1,86 @@
 import java.util.*;
 
 class Solution {
-
-    Set<String> result = new HashSet<>();
-
     public List<String> removeInvalidParentheses(String s) {
+        return new AbstractList<String>() {
+            private int minRemoved;
+            private int[] temp;
+            private Set<String> ans;
+            private List<String> finalAns;
+            private int totalOpen;
+            private int totalClose;
 
-        int leftRemove = 0;
-        int rightRemove = 0;
+            public String get(int index) {
+                if (finalAns == null) solve(s);
+                return finalAns.get(index);
+            }
 
-        for (char ch : s.toCharArray()) {
+            public int size() {
+                if (finalAns == null) solve(s);
+                return finalAns.size();
+            }
 
-            if (ch == '(') {
-                leftRemove++;
-            } 
-            else if (ch == ')') {
+            private void solve(String s) {
+                ans = new HashSet<>();
+                totalOpen = 0;
+                totalClose = 0;
+                minRemoved = s.length();
+                temp = new int[s.length()];
+                for (int i = 0; i < s.length(); i++) {
+                    temp[i] = s.charAt(i);
+                    if (s.charAt(i) == '(') totalOpen++;
+                    else if (s.charAt(i) == ')') totalClose++;
+                }
+                find(totalOpen, totalClose, 0, 0);
+                finalAns = new ArrayList<>(ans);
+            }
 
-                if (leftRemove > 0) {
-                    leftRemove--;
-                } 
-                else {
-                    rightRemove++;
+            private boolean valid() {
+                int o = 0, c = 0;
+                for (int num : temp) {
+                    if (num == -1) continue;
+                    char ch = (char) num;
+                    if (ch == '(') o++;
+                    if (ch == ')') c++;
+                    if (c > o) return false;
+                }
+                return o == c;
+            }
+
+            private void add(int removed) {
+                if (minRemoved < removed) return;
+                StringBuilder sb = new StringBuilder();
+                for (int num : temp) {
+                    if (num == -1) continue;
+                    sb.append((char) num);
+                }
+                if (minRemoved > removed) {
+                    ans.clear();
+                    minRemoved = removed;
+                }
+                ans.add(sb.toString());
+            }
+
+            private void find(int open, int close, int removed, int start) {
+                if (open < 0 || close < 0 || removed > minRemoved) return;
+                if (open == close && valid()) {
+                    add(removed);
+                    return;
+                }
+                for (int i = start; i < temp.length; i++) {
+                    if (temp[i] == -1) continue;
+                    char ch = (char) temp[i];
+                    if (ch == '(' && (i == 0 || (char) temp[i - 1] != '(' || temp[i - 1] == -1)) {
+                        temp[i] = -1;
+                        find(open - 1, close, removed + 1, i);
+                        temp[i] = ch;
+                    } else if (ch == ')' && (i == 0 || (char) temp[i - 1] != ')' || temp[i - 1] == -1)) {
+                        temp[i] = -1;
+                        find(open, close - 1, removed + 1, i);
+                        temp[i] = ch;
+                    }
                 }
             }
-        }
-
-        dfs(s, 0, leftRemove, rightRemove, 0, new StringBuilder());
-
-        return new ArrayList<>(result);
-    }
-
-    private void dfs(String s, int index,
-                     int leftRemove,
-                     int rightRemove,
-                     int balance,
-                     StringBuilder current) {
-
-        if (balance < 0) {
-            return;
-        }
-
-        if (index == s.length()) {
-
-            if (leftRemove == 0 &&
-                rightRemove == 0 &&
-                balance == 0) {
-
-                result.add(current.toString());
-            }
-
-            return;
-        }
-
-        char ch = s.charAt(index);
-
-        if (ch == '(' && leftRemove > 0) {
-
-            dfs(s, index + 1,
-                leftRemove - 1,
-                rightRemove,
-                balance,
-                current);
-        }
-
-        if (ch == ')' && rightRemove > 0) {
-
-            dfs(s, index + 1,
-                leftRemove,
-                rightRemove - 1,
-                balance,
-                current);
-        }
-
-        current.append(ch);
-
-        if (ch == '(') {
-
-            dfs(s, index + 1,
-                leftRemove,
-                rightRemove,
-                balance + 1,
-                current);
-
-        } else if (ch == ')') {
-
-            dfs(s, index + 1,
-                leftRemove,
-                rightRemove,
-                balance - 1,
-                current);
-
-        } else {
-
-            dfs(s, index + 1,
-                leftRemove,
-                rightRemove,
-                balance,
-                current);
-        }
-
-        current.deleteCharAt(current.length() - 1);
+        };
     }
 }

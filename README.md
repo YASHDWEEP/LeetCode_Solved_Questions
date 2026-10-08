@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0678-valid-parenthesis-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0678-valid-parenthesis-string) |
+| [0784-letter-case-permutation](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0784-letter-case-permutation) |
 | [0856-score-of-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0940-distinct-subsequences-ii) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0022-generate-parentheses) |
 | [0301-remove-invalid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0301-remove-invalid-parentheses) |
+| [0784-letter-case-permutation](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0784-letter-case-permutation) |
 | [1096-brace-expansion-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Greedy
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
+| [0784-letter-case-permutation](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0784-letter-case-permutation) |
 | [2206-divide-array-into-equal-pairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2206-divide-array-into-equal-pairs) |
 | [2595-number-of-even-and-odd-bits](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2595-number-of-even-and-odd-bits) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |

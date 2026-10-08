@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0704-binary-search) |
 | [0835-image-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0877-stone-game) |
+| [0893-groups-of-special-equivalent-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0893-groups-of-special-equivalent-strings) |
 | [1140-stone-game-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1140-stone-game-ii) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0387-first-unique-character-in-a-string) |
+| [0893-groups-of-special-equivalent-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0893-groups-of-special-equivalent-strings) |
 | [1096-brace-expansion-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1096-brace-expansion-ii) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -79,6 +81,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
+| [0893-groups-of-special-equivalent-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0893-groups-of-special-equivalent-strings) |
 | [1096-brace-expansion-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2094-finding-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2094-finding-3-digit-even-numbers) |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0678-valid-parenthesis-string) |
 | [0784-letter-case-permutation](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0784-letter-case-permutation) |
 | [0856-score-of-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0856-score-of-parentheses) |
+| [0893-groups-of-special-equivalent-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0893-groups-of-special-equivalent-strings) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0940-distinct-subsequences-ii) |
 | [1003-check-if-word-is-valid-after-substitutions](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1003-check-if-word-is-valid-after-substitutions) |

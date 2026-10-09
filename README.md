@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
 | [0704-binary-search](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0704-binary-search) |
+| [0746-min-cost-climbing-stairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0746-min-cost-climbing-stairs) |
 | [0835-image-overlap](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0877-stone-game) |
 | [0893-groups-of-special-equivalent-strings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0893-groups-of-special-equivalent-strings) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0509-fibonacci-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0509-fibonacci-number) |
 | [0650-2-keys-keyboard](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0650-2-keys-keyboard) |
 | [0678-valid-parenthesis-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0678-valid-parenthesis-string) |
+| [0746-min-cost-climbing-stairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0746-min-cost-climbing-stairs) |
 | [0877-stone-game](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0877-stone-game) |
 | [0940-distinct-subsequences-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0940-distinct-subsequences-ii) |
 | [1140-stone-game-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1140-stone-game-ii) |

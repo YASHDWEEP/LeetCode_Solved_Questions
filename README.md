@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0009-palindrome-number) |
+| [0070-climbing-stairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0070-climbing-stairs) |
 | [0223-rectangle-area](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0223-rectangle-area) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0509-fibonacci-number) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0032-longest-valid-parentheses) |
 | [0053-maximum-subarray](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0115-distinct-subsequences) |
 | [0410-split-array-largest-sum](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0410-split-array-largest-sum) |
 | [0509-fibonacci-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0509-fibonacci-number) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0070-climbing-stairs) |
 | [0509-fibonacci-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0509-fibonacci-number) |
 ## Union-Find
 |  |

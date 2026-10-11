@@ -13,41 +13,41 @@
 //         return sum;
 //     }
 // }
-// class Solution {
-//     public int sumOddLengthSubarrays(int[] arr) {
-//         int n = arr.length;
-//         int total = 0;
-
-//         for (int i = 0; i < n; i++) {
-//             int count = ((i + 1) * (n - i) + 1) / 2;
-//             total += arr[i] * count;
-//         }
-
-//         return total;
-//     }
-// }
 class Solution {
     public int sumOddLengthSubarrays(int[] arr) {
         int n = arr.length;
         int total = 0;
 
-        for (int k = 1; k <= n; k += 2) {
-            int windowSum = 0;
-
-            for (int i = 0; i < k; i++) {
-                windowSum += arr[i];
-            }
-
-            total += windowSum;
-
-            for (int right = k; right < n; right++) {
-                windowSum -= arr[right - k];
-                windowSum += arr[right];
-
-                total += windowSum;
-            }
+        for (int i = 0; i < n; i++) {
+            int count = ((i + 1) * (n - i) + 1) / 2;
+            total += arr[i] * count;
         }
 
         return total;
     }
 }
+// class Solution {
+//     public int sumOddLengthSubarrays(int[] arr) {
+//         int n = arr.length;
+//         int total = 0;
+
+//         for (int k = 1; k <= n; k += 2) {
+//             int windowSum = 0;
+
+//             for (int i = 0; i < k; i++) {
+//                 windowSum += arr[i];
+//             }
+
+//             total += windowSum;
+
+//             for (int right = k; right < n; right++) {
+//                 windowSum -= arr[right - k];
+//                 windowSum += arr[right];
+
+//                 total += windowSum;
+//             }
+//         }
+
+//         return total;
+//     }
+// }

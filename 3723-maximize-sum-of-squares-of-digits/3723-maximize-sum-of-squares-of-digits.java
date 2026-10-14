@@ -1,27 +1,16 @@
 class Solution {
-    public static int length(int n ){
-        int c = 0 ; 
-        while(n > 0 ){
-            n = n/10 ; 
-            c++; 
-        }
-        return c ; 
-    }
     public String maxSumOfSquares(int num, int sum) {
-        if (num < length(sum)){
-            return ""; 
+        if (num * 9 < sum) {
+            return "";
         }
-        StringBuilder res = new StringBuilder(); 
-        // boolean j = false ; 
-        while (num > 0  ){
-            res.append(Math.min(9,Math.max(sum,0 ))); 
-            sum-=9; 
-            num--; 
-            if (num == 0 &&sum > 0){
-                return "";
-            }
-        }  
+        int k = sum / 9;
+        sum %= 9;
+        StringBuilder sb = new StringBuilder("9".repeat(k));
 
-        return res.toString(); 
+        if (sum > 0) {
+            sb.append(sum);
+        }
+        sb.append("0".repeat(num - sb.length()));
+        return sb.toString();
     }
 }

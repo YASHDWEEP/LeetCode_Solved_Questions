@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3079-find-the-sum-of-encrypted-integers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3079-find-the-sum-of-encrypted-integers) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+| [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3524-find-x-value-of-array-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3524-find-x-value-of-array-i) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2413-smallest-even-multiple](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2413-smallest-even-multiple) |
 | [3079-find-the-sum-of-encrypted-integers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3079-find-the-sum-of-encrypted-integers) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+| [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3524-find-x-value-of-array-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3524-find-x-value-of-array-i) |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2413-smallest-even-multiple](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2413-smallest-even-multiple) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+| [3233-find-the-count-of-numbers-which-are-not-special](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3233-find-the-count-of-numbers-which-are-not-special) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3658-gcd-of-odd-and-even-sums) |
 ## Prefix Sum

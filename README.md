@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0198-house-robber) |
+| [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0213-house-robber-ii) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0283-move-zeroes) |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0009-palindrome-number) |
 | [0070-climbing-stairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0070-climbing-stairs) |
+| [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
 | [0223-rectangle-area](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0223-rectangle-area) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0509-fibonacci-number) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
 | [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 | [2094-finding-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2094-finding-3-digit-even-numbers) |
 | [2778-sum-of-squares-of-special-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2778-sum-of-squares-of-special-elements) |
@@ -295,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
 | [1201-ugly-number-iii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1201-ugly-number-iii) |
 | [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1979-find-greatest-common-divisor-of-array) |
@@ -422,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sieve Theory
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
 | [1952-three-divisors](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1952-three-divisors) |
 ## Matrix
 |  |
@@ -521,4 +526,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->

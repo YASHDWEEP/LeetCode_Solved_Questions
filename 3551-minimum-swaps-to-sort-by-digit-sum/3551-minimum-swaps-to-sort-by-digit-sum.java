@@ -1,4 +1,3 @@
-import java.util.*;
 
 class Solution {
     private static int digitsum(int n) {

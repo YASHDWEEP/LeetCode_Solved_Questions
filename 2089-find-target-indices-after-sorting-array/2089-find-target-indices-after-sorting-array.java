@@ -1,17 +1,18 @@
 class Solution {
     public List<Integer> targetIndices(int[] nums, int target) {
-        Arrays.sort(nums); 
-        boolean found = false ; 
-        List<Integer> list =  new ArrayList<>(); 
-        for (int i = 0 ; i < nums.length ; i++){
-            if (nums[i] == target){
-                list.add(i); 
-                found = true ; 
+        int lessthantarget = 0, targetfound = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] < target) {
+                lessthantarget++;
             }
-            if (found && nums[i] != target){
-                break ; 
+            if (nums[i] == target) {
+                targetfound++;
             }
-        }   
-        return list ; 
+        }
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < targetfound; i++) {
+            list.add(lessthantarget + i);
+        }
+        return list;
     }
 }

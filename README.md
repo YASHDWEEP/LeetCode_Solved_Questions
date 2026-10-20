@@ -61,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3731-find-missing-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3731-find-missing-elements) |
 | [3769-sort-integers-by-binary-reflection](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3769-sort-integers-by-binary-reflection) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3876-construct-uniform-parity-array-ii) |
+| [3886-sum-of-sortable-integers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3886-sum-of-sortable-integers) |
 | [3903-smallest-stable-index-i](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3903-smallest-stable-index-i) |
 | [3904-smallest-stable-index-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3904-smallest-stable-index-ii) |
 ## Hash Table
@@ -113,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3727-maximum-alternating-sum-of-squares](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3727-maximum-alternating-sum-of-squares) |
 | [3731-find-missing-elements](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3731-find-missing-elements) |
 | [3769-sort-integers-by-binary-reflection](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3769-sort-integers-by-binary-reflection) |
+| [3886-sum-of-sortable-integers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3886-sum-of-sortable-integers) |
 ## Math
 |  |
 | ------- |
@@ -153,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3870-count-commas-in-range](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3871-count-commas-in-range-ii) |
 | [3876-construct-uniform-parity-array-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3876-construct-uniform-parity-array-ii) |
+| [3886-sum-of-sortable-integers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3886-sum-of-sortable-integers) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -230,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3483-unique-3-digit-even-numbers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
+| [3886-sum-of-sortable-integers](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3886-sum-of-sortable-integers) |
 ## Database
 |  |
 | ------- |

@@ -1,11 +1,22 @@
+// class Solution {
+//     public int sortPermutation(int[] nums) {
+//         int k = -1;
+//         for (int i = 0; i < nums.length; i++) {
+//             if (nums[i] != i) {
+//                 k = k & nums[i];
+//             }
+//         }
+//         return Math.max(0, k);
+//     }
+// }
 class Solution {
     public int sortPermutation(int[] nums) {
-        int k = -1;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != i) {
-                k = k & nums[i];
-            }
+        int n=nums.length;
+        int k=(1<<17)-1;
+        for(int i=0;i<n;i++){
+            if(nums[i]==i) continue;
+            k&=nums[i];
         }
-        return Math.max(0, k);
+        return k==((1<<17)-1)?0:k;
     }
 }

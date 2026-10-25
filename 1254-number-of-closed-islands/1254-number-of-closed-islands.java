@@ -4,7 +4,7 @@ class Solution {
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
                 if (grid[i][j] == 0) {
-                    if (dfs(i, j, grid)) {
+                    if (dfs(grid, i, j)) {
                         count++;
                     }
                 }
@@ -13,20 +13,21 @@ class Solution {
         return count;
     }
 
-    public boolean dfs(int r, int c, int grid[][]) {
+    public boolean dfs(int grid[][], int r, int c) {
         int m = grid.length;
         int n = grid[0].length;
-        if (r < 0 || r >= m || c < 0 || c >= n) {
+        if (c < 0 || c >= n || r < 0 || r >= m) {
             return false;
         }
         if (grid[r][c] == 1) {
             return true;
         }
         grid[r][c] = 1;
-        boolean left = dfs(r, c - 1, grid);
-        boolean right = dfs(r, c + 1, grid);
-        boolean up = dfs(r - 1, c, grid);
-        boolean down = dfs(r + 1, c, grid);
+        boolean left = dfs(grid, r, c - 1);
+        boolean right = dfs(grid, r, c + 1);
+        boolean up = dfs(grid, r - 1, c);
+        boolean down = dfs(grid, r + 1, c);
+
         return left && right && up && down;
     }
 }

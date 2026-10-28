@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0733-flood-fill](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0733-flood-fill) |
 | [1254-number-of-closed-islands](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1254-number-of-closed-islands) |
+| [1971-find-if-path-exists-in-graph](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [3310-remove-methods-from-project](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3310-remove-methods-from-project) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0733-flood-fill) |
 | [1096-brace-expansion-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1096-brace-expansion-ii) |
 | [1254-number-of-closed-islands](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1254-number-of-closed-islands) |
+| [1971-find-if-path-exists-in-graph](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1971-find-if-path-exists-in-graph) |
 | [2059-minimum-operations-to-convert-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2059-minimum-operations-to-convert-number) |
 | [3310-remove-methods-from-project](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -235,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [1971-find-if-path-exists-in-graph](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1971-find-if-path-exists-in-graph) |
 | [3310-remove-methods-from-project](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3310-remove-methods-from-project) |
 ## Enumeration
 |  |
@@ -531,6 +534,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0128-longest-consecutive-sequence) |
 | [1254-number-of-closed-islands](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1254-number-of-closed-islands) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
+| [1971-find-if-path-exists-in-graph](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/1971-find-if-path-exists-in-graph) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Boyer–Moore Majority Vote Algorithm
 |  |

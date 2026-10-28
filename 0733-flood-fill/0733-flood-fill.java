@@ -1,30 +1,24 @@
 class Solution {
-    private int orignal_color;
-
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        orignal_color = image[sr][sc];
+        int orignal_color = image[sr][sc];
         if (orignal_color == color) {
             return image;
         }
-        dfs(image, sr, sc, color);
+        dfs(image, sr, sc, orignal_color, color);
         return image;
     }
 
-    private void dfs(int image[][], int i, int j, int color) {
-        int m = image.length;
-        int n = image[0].length;
-
-        if (i < 0 || i >= m || j < 0 || j >= n) {
+    private void dfs(int image[][], int sr, int sc, int or, int co) {
+        if (sr < 0 || sr >= image.length || sc < 0 || sc >= image[0].length) {
             return;
         }
-        if (image[i][j] != orignal_color) {
+        if (image[sr][sc] != or) {
             return;
         }
-        image[i][j] = color;
-        dfs(image, i + 1, j, color);
-        dfs(image, i - 1, j, color);
-        dfs(image, i, j + 1, color);
-        dfs(image, i, j - 1, color);
+        image[sr][sc] = co;
+        dfs(image, sr - 1, sc, or, co);
+        dfs(image, sr + 1, sc, or, co);
+        dfs(image, sr, sc - 1, or, co);
+        dfs(image, sr, sc + 1, or, co);
     }
-
 }

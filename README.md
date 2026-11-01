@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0088-merge-sorted-array) |
 | [0128-longest-consecutive-sequence](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0198-house-robber) |
 | [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
 | [0213-house-robber-ii](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0213-house-robber-ii) |
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0009-palindrome-number) |
 | [0070-climbing-stairs](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0204-count-primes) |
 | [0223-rectangle-area](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0223-rectangle-area) |
 | [0268-missing-number](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0268-missing-number) |
@@ -364,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0088-merge-sorted-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/0344-reverse-string) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/YASHDWEEP/LeetCode_Solved_Questions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |

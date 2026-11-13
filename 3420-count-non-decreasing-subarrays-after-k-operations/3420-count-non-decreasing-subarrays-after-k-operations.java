@@ -1,51 +1,47 @@
-
 class Solution {
     public long countNonDecreasingSubarrays(int[] nums, int k) {
-
         int n = nums.length;
 
-        Deque<int[]> dq = new ArrayDeque<>();
-
-        long cost = 0;
         long ans = 0;
+        long cost = 0;
+
+        int[] stack = new int[n];
+
+        int head = 0;
+        int top = 0;
 
         int j = n - 1;
 
         for (int i = n - 1; i >= 0; i--) {
 
-            int count = 1;
+            // Add nums[i].
+            // Pop smaller values from the back.
+            while (head < top && nums[stack[top - 1]] < nums[i]) {
 
-            // Merge smaller segments
-            while (!dq.isEmpty() && dq.peekFirst()[0] < nums[i]) {
+                int x = stack[--top];
 
-                int[] curr = dq.pollFirst();
+                int r = (head < top)
+                      ? stack[top - 1]
+                      : j + 1;
 
-                cost += (long) (nums[i] - curr[0]) * curr[1];
-
-                count += curr[1];
+                cost += (long) (r - x) * (nums[i] - nums[x]);
             }
 
-            // Add current element
-            dq.offerFirst(new int[]{nums[i], count});
+            stack[top++] = i;
 
-            // Shrink window if cost exceeds k
+            // Shrink from the right while too expensive.
             while (cost > k) {
 
-                int[] last = dq.peekLast();
+                cost -= (long) nums[stack[head]] - nums[j];
 
-                cost -= last[0] - nums[j];
-
-                last[1]--;
-
-                if (last[1] == 0) {
-                    dq.pollLast();
+                if (stack[head] == j) {
+                    head++;
                 }
 
                 j--;
             }
 
-            // Count valid subarrays
-            ans += (j - i + 1);
+            ans += j - i + 1;
         }
 
         return ans;
